@@ -1,5 +1,6 @@
 import { type Request } from "express";
 import { type JwtPayload } from "jsonwebtoken";
+
 export interface RobotStructure {
   name: string;
   url: string;
